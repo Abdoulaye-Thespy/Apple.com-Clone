@@ -26,14 +26,14 @@ main {
                     url(images/apple4.jpg),
                     url(images/apple5.jpg);
        background-repeat: no-repeat,
-       no-repeat,
-       no-repeat,
-       no-repeat;
+           no-repeat,
+           no-repeat,
+           no-repeat;
        background-size: 300px 300px;
-       background-position: 0 0%,
-       300px 0%,
-       600px 0%,
-       900px 0%;
+       background-position: 0 0,
+       300px 0,
+       600px 0,
+       900px 0;
    margin: auto;
 }
 
@@ -45,10 +45,6 @@ main {
   width: 1175px;
   margin: auto;
   margin-top: 2rem;
-}
-
-.footer p {
-  font-size: 11px;
 }
 
 a {
@@ -74,7 +70,9 @@ nav {
   color: #fff;
   background-color: #595959;
 }
-
+.footer p {
+  font-size: 11px;
+}
  #span1 i {
   color: #fff;
   margin-left: 40px;
