@@ -14,26 +14,29 @@ main {
   background-size: 1200px 700px;
   max-width: 100%;
   height: 600px;
-  margin: auto;
+    margin: auto;
 }
 
 .second-div {
-   width: 1200px;
-   height: 250px;
-   background-image:
-                    url(images/apple2.jpg),
-                    url(images/apple3.jpg),
-                    url(images/apple4.jpg),
-                    url(images/apple5.jpg);
-       background-repeat: no-repeat,
-           no-repeat,
-           no-repeat,
-           no-repeat;
-       background-size: 300px 300px;
-       background-position: 0 0,
-       300px 0,
-       600px 0,
-       900px 0;
+  width: 1200px;
+  height: 250px;
+  background-image:
+    url(images/apple2.jpg),
+    url(images/apple3.jpg),
+    url(images/apple4.jpg),
+    url(images/apple5.jpg);
+   background-repeat:
+     no-repeat,
+     no-repeat,
+     no-repeat,
+     no-repeat;
+   background-size:
+     300px 300px;
+   background-position:
+     0 0,
+     300px 0,
+     600px 0,
+     900px 0;
    margin: auto;
 }
 
@@ -50,6 +53,7 @@ main {
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -70,23 +74,27 @@ nav {
   color: #fff;
   background-color: #595959;
 }
+
 .footer p {
   font-size: 11px;
 }
+
  #span1 i {
   color: #fff;
   margin-left: 40px;
   margin-top: 6px;
   font-size: 20px;
 }
+
 nav span {
- background-color: #595959;
+  background-color: #595959;
 }
 
 #span2 {
   border-radius: .3rem;
   background-color: #666;
 }
+
 #span2 i {
   padding-right: 60px;
   padding-left: 5px;
@@ -99,6 +107,7 @@ nav span {
   width: 1000px;
   margin: auto;
 }
+
 .content p a {
   text-align: center;
   text-decoration: none;
