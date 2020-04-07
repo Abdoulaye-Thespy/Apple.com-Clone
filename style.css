@@ -39,3 +39,37 @@ main {
    margin: auto;
    border: 2px solid black;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: .8rem;
+  grid-row-gap: 1rem;
+ width: 1175px;
+ margin: auto;
+ margin-top: 2rem;
+}
+
+.footer p {
+  font-size: 11px;
+}
+
+a {
+  text-decoration: none;
+
+}
+a:hover{
+  text-decoration: underline;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-column-gap: -40px;
+
+}
+
+ input {
+  font-size: 10px;
+  border: none;
+}
