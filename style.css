@@ -14,7 +14,6 @@ main {
    background-size: 1200px 700px;
    max-width: 100%;
    height: 600px;
-   border: 2px solid black;
    margin: auto;
 }
 
@@ -37,7 +36,6 @@ main {
        600px 0%,
        900px 0%;
    margin: auto;
-   border: 2px solid black;
 }
 
 .footer {
@@ -56,7 +54,6 @@ main {
 
 a {
   text-decoration: none;
-
 }
 a:hover{
   text-decoration: underline;
@@ -69,7 +66,6 @@ nav {
   position: relative;
   top: 90px;
   left: 125px;
-
 }
 
  input, nav p {
@@ -80,7 +76,7 @@ nav {
   background-color: #595959;
 }
 
- #span1 i{
+ #span1 i {
   color: #fff;
   margin-left: 40px;
   margin-top: 6px;
@@ -88,12 +84,11 @@ nav {
 }
 nav span {
  background-color: #595959;
-
 }
+
 #span2 {
   border-radius: .3rem;
   background-color: #666666;
-  border: black;
 }
 #span2 i {
   padding-right: 60px;
@@ -103,11 +98,9 @@ nav span {
 .content {
   position: relative;
   top: 150px;
-  left: 30px;
+  left: 20px;
   width: 1000px;
   margin: auto;
-  border: 2px solid black;
-
 }
 .content p a {
   text-align: center;
@@ -115,4 +108,8 @@ nav span {
   color: white;
   margin-left: 200px;
   font-size: 25px;
+}
+
+.content p {
+  margin-top: 1rem;
 }
