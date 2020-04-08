@@ -6,7 +6,7 @@
 main {
   width: 1458px;
   margin: auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .main-div {
@@ -26,6 +26,7 @@ main {
   grid-template-columns: 358px 358px 358px 358px;
   grid-column-gap: 8px;
 }
+
 .second-div .div1 {
   background-image: url(images/apple2.jpg);
 }
@@ -36,10 +37,6 @@ main {
 
 .second-div .div3 {
   background-image: url(images/apple4.jpg);
-}
-
-.second-div .div4 {
-
 }
 
 nav {
@@ -57,6 +54,14 @@ nav a {
   color: #fff;
 }
 
+input {
+  width: 100px;
+  text-align: center;
+  border-radius: 1rem;
+  border: 1px #ccc;
+  background-color: #808080;
+}
+
 nav ul li input {
   padding: 6px;
   margin-top: 8px;
@@ -65,14 +70,11 @@ nav ul li input {
 }
 
 ul {
-  list-style: none;
-}
-
-ul {
   display: grid;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   align-items: center;
   align-content: center;
+  list-style: none;
 }
 
 nav ul li {
@@ -104,7 +106,7 @@ nav ul li:hover {
 
 .footer a {
   text-decoration: none;
-  color: #3333ff;
+  color: #33ff;
 }
 
 a:hover {
@@ -113,6 +115,12 @@ a:hover {
 
 .footer p {
   font-size: 8px;
+}
+
+nav form i {
+  position: absolute;
+  top: 0.1rem;
+  right: 70px;
 }
 
 #li1 i {
@@ -171,18 +179,4 @@ a:hover {
 form {
   position: relative;
   margin-left: 0.5rem;
-}
-
-input {
-  width: 100px;
-  text-align: center;
-  border-radius: 1rem;
-  border: 1px #cccccc;
-  background-color: #808080;
-}
-
-nav form i {
-  position: absolute;
-  top: 0.1rem;
-  right: 70px;
 }
