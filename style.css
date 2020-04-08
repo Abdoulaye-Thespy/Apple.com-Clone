@@ -42,6 +42,56 @@ main {
 
 }
 
+nav {
+  position: relative;
+  width: 930px;
+  top: 90px;
+  left: 250px;
+  height: 36px;
+  background: linear-gradient(#676767 50%, #737373 50%);
+  border-radius: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  align-items: center;
+  align-content: center;
+}
+
+nav ul li {
+  font-size: 15px;
+  padding: 0.5rem;
+  color: #fff;
+  border-right: 1px solid black;
+}
+
+nav ul li a {
+  margin-left: 1.3rem;
+}
+
+nav ul li:hover {
+  background: linear-gradient(#676767 50%, #737373 50%);
+  background: #4d4d4d;
+  cursor: pointer;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -61,56 +111,6 @@ a:hover {
   text-decoration: underline;
 }
 
-nav {
-  position: relative;
-  width: 950px;
-  top: 90px;
-  left: 300px;
-  height: 36px;
-  background: linear-gradient(#676767 50%, #737373 50%);
-  border-radius: 0.5rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-
-}
-
-nav ul li input {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-ul {
-  list-style: none;
-}
-
-ul {
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  background: linear-gradient(#676767 50%, #737373 50%);
-}
-
-nav ul li {
-  font-size: 15px;
-  padding: 0.5rem;
-  color: #fff;
-  border-right: 1px solid black;
-}
-
-nav ul li a{
-  margin-left: 1.3rem;
-}
-
-nav ul li:hover {
-  background: linear-gradient(#676767 50%, #737373 50%);
-  background: #4d4d4d;
-  cursor: pointer;
-}
-
 .footer p {
   font-size: 8px;
 }
@@ -121,7 +121,6 @@ nav ul li:hover {
   margin-top: 2px;
   font-size: 15px;
 }
-
 
 #span2 {
   border-radius: 0.3rem;
@@ -171,18 +170,19 @@ nav ul li:hover {
 }
 form {
   position: relative;
+  margin-left: 0.5rem;
 }
 
 input {
   width: 100px;
   text-align: center;
   border-radius: 1rem;
+  border: 1px #cccccc;
+  background-color: #808080;
 }
 
 nav form i {
   position: absolute;
   top: 0.1rem;
-  right: 80px;
-
-
+  right: 70px;
 }
