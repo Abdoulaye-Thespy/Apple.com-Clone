@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 1458px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main-div {
+  background-image: url(images/apple.jpg);
+  background-repeat: no-repeat;
+  background-position: 8px -650px;
+  background-size: 1458px;
+  width: 1458px;
+  margin: auto;
+  height: 650px;
+}
+
+.second-div {
+  width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 358px 358px 358px 358px;
+  grid-column-gap: 8px;
+}
+
+.second-div .div1 {
+  background-image: url(images/apple2.jpg);
+}
+
+.second-div .div2 {
+  background-image: url(images/apple3.jpg);
+}
+
+.second-div .div3 {
+  background-image: url(images/apple4.jpg);
+}
+
+nav {
+  position: relative;
+  width: 930px;
+  top: 90px;
+  left: 250px;
+  height: 36px;
+  background: linear-gradient(#676767 50%, #737373 50%);
+  border-radius: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+input {
+  width: 100px;
+  text-align: center;
+  border-radius: 1rem;
+  border: 1px #ccc;
+  background-color: #808080;
+}
+
+nav ul li input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 15px;
+  padding: 0.5rem;
+  color: #fff;
+  border-right: 1px solid black;
+}
+
+nav ul li a {
+  margin-left: 1.3rem;
+}
+
+nav ul li:hover {
+  background: linear-gradient(#676767 50%, #737373 50%);
+  background: #4d4d4d;
+  cursor: pointer;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.8rem;
+  grid-row-gap: 1rem;
+  width: 1175px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #33ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 8px;
+}
+
+nav form i {
+  position: absolute;
+  top: 0.1rem;
+  right: 70px;
+}
+
+#li1 i {
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+#span2 {
+  border-radius: 0.3rem;
+  background-color: #666;
+}
+
+#span2 i {
+  padding-right: 60px;
+  padding-left: 5px;
+}
+
+.content {
+  position: relative;
+  top: 150px;
+  left: 20px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.content .p1 {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.content p a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.content p {
+  margin-top: 1rem;
+}
+
+#text1 {
+  font-size: 40px;
+  color: white;
+}
+
+#text2 {
+  font-size: 30px;
+  color: white;
+}
+
+form {
+  position: relative;
+  margin-left: 0.5rem;
+}
