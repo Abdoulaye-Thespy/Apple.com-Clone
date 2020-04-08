@@ -78,13 +78,16 @@ ul {
 
 }
 
-nav ul li,
-nav p {
+nav ul li {
   font-size: 15px;
-  border: none;
   padding: 0.5rem;
   color: #fff;
-  background: linear-gradient(#747474 50%, #676767 50%);
+  background: linear-gradient(#676767 50%, #737373 50%);
+}
+nav ul li:hover {
+  background: linear-gradient(#676767 50%, #737373 50%);
+  background: #4d4d4d;
+  cursor: pointer;
 }
 
 .footer p {
@@ -98,9 +101,6 @@ nav p {
   font-size: 15px;
 }
 
-nav span {
-  background-color: #595959;
-}
 
 #span2 {
   border-radius: 0.3rem;
@@ -118,10 +118,11 @@ nav span {
   left: 20px;
   width: 1000px;
   margin: auto;
+  margin-top: 2rem;
+  text-align: center;
 }
 
-.content p {
-  text-align: center;
+.content .p1 {
   text-decoration: none;
   color: white;
   font-size: 25px;
@@ -131,10 +132,19 @@ nav span {
   text-align: center;
   text-decoration: none;
   color: white;
-  margin-left: 150px;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .content p {
   margin-top: 1rem;
+}
+
+#text1 {
+  font-size: 35px;
+  color: white;
+}
+
+#text2{
+  font-size: 25px;
+  color: white;
 }
