@@ -85,7 +85,7 @@
     "path-type": "^4.0.0",
     "picomatch": "^2.2.2",
     "pkg-up": "^2.0.0",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "postcss-value-parser": "^4.0.3",
     "punycode": "^2.1.1",
     "quick-lru": "^4.0.1",
