@@ -4,7 +4,7 @@
   "description": "A clone of the NewYork Time's Page",
   "main": "stylelint.config.js",
   "dependencies": {
-    "browserslist": "^4.11.1",
+    "browserslist": "^4.16.5",
     "camelcase-keys": "^6.2.1",
     "clone-regexp": "^2.2.0",
     "debug": "^4.1.1",
