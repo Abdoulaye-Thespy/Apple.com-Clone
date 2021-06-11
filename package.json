@@ -20,7 +20,7 @@
     "flatted": "^2.0.2",
     "fs.realpath": "^1.0.0",
     "gensync": "^1.0.0-beta.1",
-    "glob-parent": "^5.1.1",
+    "glob-parent": "^5.1.2",
     "globals": "^11.12.0",
     "gonzales-pe": "^4.3.0",
     "hard-rejection": "^2.1.0",
