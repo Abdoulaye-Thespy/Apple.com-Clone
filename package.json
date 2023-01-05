@@ -54,7 +54,7 @@
     "jsesc": "^2.5.2",
     "json-parse-better-errors": "^1.0.2",
     "json-schema-traverse": "^0.4.1",
-    "json5": "^2.1.2",
+    "json5": "^2.2.2",
     "kind-of": "^6.0.3",
     "lines-and-columns": "^1.1.6",
     "locate-path": "^2.0.0",
